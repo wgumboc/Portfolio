@@ -11562,7 +11562,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/GaribaldiLake.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11692,6 +11692,26 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 .contact-section .social a:active {
+  color: #fff;
+}
+
+.social2 {
+  margin-top: 2rem;
+}
+
+.social2 a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.social2 a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.social2 a:active {
   color: #fff;
 }
 
