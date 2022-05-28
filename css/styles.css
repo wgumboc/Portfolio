@@ -638,6 +638,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  zoom: auto;
 }
 
 .img-thumbnail {
@@ -12193,6 +12194,18 @@ body {
 }
 
 .resume {
+  border-radius: 10px;
+}
+
+.devicon {
+  max-width: 50px;
+  max-height: auto;
+}
+
+.expressicon {
+  max-width: 50px;
+  max-height: auto;
+  background-color: white;
   border-radius: 10px;
 }
 
