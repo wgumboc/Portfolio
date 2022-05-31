@@ -16,6 +16,14 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Latest compiled and minified CSS -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+        <!-- jQuery library -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+
+        <!-- Latest compiled JavaScript -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -43,9 +51,9 @@
                         <h1 class="mx-auto my-0 text-uppercase">William Gumboc</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">Computer Science student at UBC</h2>
                         <div class="social2 d-flex justify-content-center">
-                          <a class="mx-2" href="#!"><i class="fa fa-envelope"></i></a>
                           <a class="mx-2" href="https://github.com/wgumboc"><i class="fab fa-github"></i></a>
-                          <a class="mx-2" href="#!"><i class="fab fa-linkedin"></i></a>
+                          <a class="mx-2" href="https://www.linkedin.com/in/wgumboc/"><i class="fab fa-linkedin"></i></a>
+                          <a class="mx-2" href="mailto:wgumboc@gmail.com"><i class="fa fa-envelope"></i></a>
                         </div>
                     </div>
                 </div>
@@ -58,14 +66,18 @@
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">About Me</h2>
                         <p class="text-white-50">
-                            Welcome to my site! My name is Will and I am currently a Computer Science student at The University of British Columbia in the
-                            <a href="https://github.com/wgumboc">BCS program</a>. Previous to this, I graduated with a degree in Chemical Engineering and went off on an adventure in the land
-                            of beverages working for PepsiCo as a quality control supervisor. You can check out my projects on my 
-                            <a href="https://github.com/wgumboc">github</a>.
+                            Welcome! My name is Will and I am currently a Computer Science student at The University of British Columbia in the
+                            <a href="https://www.cs.ubc.ca/students/undergrad/degree-programs/bcs-program-second-degree">BCS program</a>. Previous to this, I graduated with a degree in Chemical Engineering and worked as a quality control 
+                            supervisor for a beverage company. During this time, I would noticed many unoptimized processes and would create VBA or Python scripts to automate repetitive tasks, sparking my interest in programming. I started tinkering with 
+                            JavaScript, HTML, and CSS, and was instantly hooked. After completing many courses throughout my CS journey, learning knew skills, and working on more complex projects, the fire I had for programming burns even brighter. I find joy in continuous 
+                            learning and am always looking for ways to develop myself.
                             <br>
                             <br>
-                            I find joy continuous learning and am always looking for ways to develop myself.
+                            In my free time I enjoy staying active in the outdoors through soccer, skiing, and hiking. I also enjoy annoying my friends and family by singing and freestyling on the piano.
                         </p>
+                      
+                        <br>
+                        <br>
                         <h2 class="text-white mb-4">My Tech Skills</h2>
                         <br>
                         <p class="text-white-50">
@@ -96,33 +108,28 @@
             </div>
         </section>
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section class="projects-section bg-light text-center" id="projects">
             <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/ski3.png" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4 class="project-title">Ski</h4>
-                            <p class="text-grey-50 mb-0">Hobbies skiing</p>
-                        </div>
-                    </div>
-                </div>
-               
+               <h1 class="text-white mb-4 projects-head">Projects</h1>   
+               <br>           
                 <div class="hobbies-container">
                     <!-- Project One Row-->
                     <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                        <div class="col-lg-6"><img class="img-fluid" src="assets/img/Dashboard.PNG" alt="..." /></div>
+                        <div class="col-lg-6">
+                          <a href="https://github.com/wgumboc/Course_Progress_Dashboard">
+                            <img class="img-fluid proj-img" src="assets/img/Dashboardcrop.PNG" alt="..." />
+                          </a>
+                        </div>
                         <div class="col-lg-6">
                             <div class="bg-black text-center h-100 project">
                                 <div class="d-flex h-100">
                                     <div class="project-text w-100 my-auto text-center text-lg-left">
                                         <h4 class="text-white">Course Progress Dashboard</h4>
                                         <p class="mb-0 text-white-50">I created this web app using a React frontend with an Express backend framework that allows a user to track their courses and assessments,
-                                          calculate their weighted average, and predict their final grade through the use of function components
+                                          calculate their weighted average, and predict their final grade through the use of function components.
                                           I set up and connected a MongoDB database to enable data to be stored and retrieved for user specific course addition
-                                          and removal, custom assessment addition, and continuous grade calculation. JSON Web Token was used for user authorization and authentication was implemented 
-                                          using the Redux toolkit. To update data, I used a REST API with CRUD operations.</p>
+                                          and removal, custom assessment addition, and continuous grade calculation. User authorization was implemented with JSON Web Token and authentication was achieved using 
+                                          Redux to manage state. Data was updated using Axios to make CRUD requests to a REST API.</p>
                                         <hr class="d-none d-lg-block mb-0 ms-0" />
                                     </div>
                                 </div>
@@ -131,13 +138,19 @@
                     </div>
                     <!-- Project Two Row-->
                     <div class="row gx-0 justify-content-center">
-                        <div class="col-lg-6"><img class="img-fluid" src="assets/img/Parkpal.PNG" alt="..." /></div>
+                        <div class="col-lg-6">
+                          <a href="https://github.com/wgumboc/ParkingApp">
+                            <img class="img-fluid proj-img" src="assets/img/Parkpal.PNG" alt="..." />
+                          </a>
+                        </div>
                         <div class="col-lg-6 order-lg-first">
                             <div class="bg-black text-center h-100 project">
                                 <div class="d-flex h-100">
                                     <div class="project-text w-100 my-auto text-center text-lg-right">
                                         <h4 class="text-white">Parkpal</h4>
-                                        <p class="mb-0 text-white-50">I take pics of stuff.</p>
+                                        <p class="mb-0 text-white-50">This team project was completed for BCS Hacks 2022. We created a web app that visually locates the 100 closest parking meters to any selected spot in Vancouver through
+                                          querying data provided by the City of Vancouver's parking API as well as utilization of the Google Maps API. The app also features the ability to highlight the 10 cheapest spots as well as
+                                          filter for spots that allow stays of > 2hrs.</p>
                                         <hr class="d-none d-lg-block mb-0 me-0" />
                                     </div>
                                 </div>
@@ -146,19 +159,43 @@
                     </div>
                     <!-- Project Three Row-->
                     <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/crisis.jpg" alt="..." /></div>
+                      <div class="col-lg-6">
+                        <a href="https://github.com/wgumboc/Employee_Scheduler">
+                          <img class="img-fluid proj-img" src="assets/img/MS.PNG" alt="..." />
+                        </a>
+                      </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Hike</h4>
-                                    <p class="mb-0 text-white-50">Having a crisis.</p>
+                                    <h4 class="text-white">Manning Scheduler</h4>
+                                    <p class="mb-0 text-white-50">As a previous supervisor who did scheduling using excel, I decided to optimize the process by creating a Java desktop application using the Swing GUI toolkit for creating 
+                                      new positions and assigning employees to their relevant position restricted by their skillset.</p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
                         </div>
                     </div>
                     </div>
+                    <!-- Project Four Row-->
+                    <div class="row gx-0 justify-content-center">
+                      <div class="col-lg-6">
+                        <a href="https://wgumboc.github.io/Tic-Tac-Toe/">
+                          <img class="img-fluid proj-img" src="assets/img/Tictactoe.png" alt="..." />
+                        </a>
+                      </div>
+                      <div class="col-lg-6 order-lg-first">
+                          <div class="bg-black text-center h-100 project">
+                              <div class="d-flex h-100">
+                                  <div class="project-text w-100 my-auto text-center text-lg-right">
+                                      <h4 class="text-white">Tic-Tac-Toe</h4>
+                                      <p class="mb-0 text-white-50">The project where it all began. I created a Tic-Tac-Toe game to apply what I learned after teaching myself Vanilla JavaScript, HTML, and CSS.</p>
+                                      <hr class="d-none d-lg-block mb-0 me-0" />
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
                 </div>
             </div>
         </section>
@@ -167,7 +204,14 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
-                      <div class="resume"><img class="resume" src="assets/img/resume.png" alt="..." /></div>
+                      <div class="resume-text">My Resume</div>
+                      <br>
+                      <a href="/resume.pdf">
+                        <i class="fa fa-file fa-5x">
+
+                        </i>
+                      </a>
+                      <!-- <div class="img-fluid"><img class="img-fluid" src="assets/img/resume.png" alt="..." /></div> -->
                     </div>
                 </div>
             </div>
@@ -189,5 +233,6 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
     </body>
 </html>

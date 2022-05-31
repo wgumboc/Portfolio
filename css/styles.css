@@ -12209,6 +12209,33 @@ body {
   border-radius: 10px;
 }
 
+.resume-text {
+  font-size: 50px;
+  color:rgb(232, 232, 232)
+}
+
+.projects-head {
+  font-size: 50px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.proj-img {
+  -webkit-filter: brightness(100%);
+}
+
+.proj-img:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 .footer {
   padding: 5rem 0;
 }
+
+/* ---------------------------------------------------------------------------------------- */
+/* Carousel */
