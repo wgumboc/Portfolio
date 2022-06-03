@@ -12203,10 +12203,20 @@ body {
 }
 
 .expressicon {
-  max-width: 50px;
+  max-width: 70px;
   max-height: auto;
   background-color: white;
   border-radius: 10px;
+}
+
+.nodeicon {
+  max-width: 70px;
+  max-height: auto;
+}
+
+.reduxicon {
+  max-width: 70px;
+  max-height: auto;
 }
 
 .resume-text {
